@@ -1,5 +1,5 @@
 :root {
-    --primary: #ff4d94;
+    --primary: #a88995;
     --primary-light: #ff85b3;
     --secondary: #c77dff;
     --accent: #ff6b6b;
@@ -7,7 +7,7 @@
     --darker: #0d0d1a;
     --light: #f8f9fa;
     --user-bubble: #4d79ff;
-    --bot-bubble: #ff66a3;
+    --bot-bubble: #4e4d4d;
     --header-height: 70px;
     --input-height: 70px;
     
@@ -24,14 +24,14 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: var(--darker); /* Solid fallback background */
+    background: var(--darker); 
     color: var(--light);
     min-height: 100vh;
     overflow: hidden;
     position: relative;
 }
 
-/* ENHANCEMENT: Animated gradient background and subtle noise texture */
+
 body::before {
     content: "";
     position: absolute;
